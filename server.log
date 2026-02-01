@@ -1,0 +1,27 @@
+2026-02-01 23:57:15,104 | DEBUG | [REQUEST] Validating request: GET / HTTP/1.1
+2026-02-01 23:57:15,105 | DEBUG | [REQUEST] Request validation successful
+2026-02-01 23:57:15,105 | DEBUG | [FILE] Trying to read file: webroot\/index.html
+2026-02-01 23:57:15,105 | INFO | [FILE] File loaded successfully (25607 bytes)
+2026-02-01 23:57:15,105 | INFO | [RESPONSE] Building 403 FORBIDDEN
+2026-02-01 23:57:15,105 | DEBUG | [RESPONSE] Header Content-Length: 0
+2026-02-01 23:57:15,105 | INFO | [RESPONSE] Total size: 45 bytes
+2026-02-01 23:57:15,105 | INFO | Response headers: HTTP/1.1 403 FORBIDDEN
+Content-Length: 0
+
+
+2026-02-01 23:57:15,105 | DEBUG | [CALC] calculate_next called with: 
+2026-02-01 23:57:15,105 | WARNING | [CALC] Invalid num format
+2026-02-01 23:57:15,105 | INFO | [RESPONSE] Building 400 BAD REQUEST
+2026-02-01 23:57:15,105 | DEBUG | [RESPONSE] Header Content-Length: 0
+2026-02-01 23:57:15,105 | INFO | [RESPONSE] Total size: 47 bytes
+2026-02-01 23:57:15,106 | INFO | Response headers: HTTP/1.1 400 BAD REQUEST
+Content-Length: 0
+
+
+2026-02-01 23:57:15,106 | DEBUG | [CALC] calculate_area called with: height=7&width=7
+2026-02-01 23:57:15,106 | INFO | [CALC] Area calculated: 24.5
+2026-02-01 23:57:15,106 | DEBUG | [CALC] calculate_next called with: num=21
+2026-02-01 23:57:15,106 | INFO | [CALC] Next num calculated: num=22.0
+2026-02-01 23:57:15,106 | INFO | all asserts passed
+2026-02-01 23:57:15,106 | INFO | [SERVER] Server starting
+2026-02-01 23:57:15,107 | INFO | [SERVER] Listening on 0.0.0.0:80
